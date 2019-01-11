@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Software Engineering & World`,
     author: `Nando Theessen`,
     description: `Personal blog including articles about software engineering.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://blog.nando.codes`,
     social: {
       twitter: `NandoCodes`,
       linkedin: `https://www.linkedin.com/in/nandotheessen/?locale=en_US`,

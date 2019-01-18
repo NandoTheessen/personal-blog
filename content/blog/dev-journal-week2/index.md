@@ -1,6 +1,6 @@
 ---
 title: Week 2 in Labs9
-date: '2019-01-11T19:17:03.284Z'
+date: '2019-01-18T19:17:03.284Z'
 ---
 
 This second week felt a lot longer and harder than week 1.

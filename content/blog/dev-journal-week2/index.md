@@ -18,18 +18,23 @@ In hindsight it wasn't the most difficult API to implement, but I spent quite bi
 on figuring out what npm package to go with.
 What this taught me is that I have to invest more time into researching the packages I want
 to use in beforehand.
-It happened twice now that I wanted more customizability out
+It happened twice now that I wanted more customizability out of a package and I had to look for a different
+or even custom solution.
 
-#### Time sink #2: Backend setup for TypeScript using webpack
+#### Time sink #2: stripe connect
 
-A lot of work also went into providing the setup for our backend, that uses webpack to transpile
-all our typescript and still provide hot reload support which is challenging when working with
-typescript as transpilation can take quite a bit of time.
+Thankfully we managed to implement this feature without any new additions in the package list, but a lot of my time was spent
+researching the topic & APIs that come with it.
 
-#### Time sink #3: Setting up testing and writing tests
+#### Time sink #3: Working with TypeScript
 
-Since for us it was clear from the get-go that we'd require tests for our project to be up the "professional"
-standard in labs, quite a bit of time went into setting up tests & writing them.
+There is a massive difference between using TS on the backend which is fairly simple and straight forward
+and on the frontend which shapes up to be really difficult because of lots of predefined types that have
+to be understood .
+
+#### Whiteboard training:
+
+![Whiteboard Training](https://www.youtube.com/watch?v=vnvqpTaKb1o)
 
 #### Contributions:
 
@@ -39,33 +44,28 @@ standard in labs, quite a bit of time went into setting up tests & writing them.
 
 - Ticket 1:
 
-  - **Trello:** https://trello.com/c/OFneWZTQ
-  - **GitHub:** https://github.com/Lambda-School-Labs/labs9-cleaner-pos/pull/17
+  - **Trello:** https://trello.com/c/GlPrmPSO
+  - **GitHub:** https://github.com/Lambda-School-Labs/labs9-cleaner-pos/pull/64
 
 - Ticket 2:
 
-  - **Trello:** https://trello.com/c/0sI55Zzk
-  - **GitHub:** https://github.com/Lambda-School-Labs/labs9-cleaner-pos/pull/23
+  - **Trello:** https://trello.com/c/GlPrmPSO
+  - **GitHub:** https://github.com/Lambda-School-Labs/labs9-cleaner-pos/pull/44
 
 - Ticket 3:
-  - **Trello:** https://trello.com/c/bo6ZIXYF
-  - **Frontend:** https://cleanerpos.netlify.com/
-  - **Backend:** https://cleaner-pos.herokuapp.com/
-
-* Ticket 4:
   - **Trello:** https://trello.com/c/76rJHmSJ
-  - **GitHub :** https://github.com/Lambda-School-Labs/labs9-cleaner-pos/pull/31
+  - **GitHub:** https://github.com/Lambda-School-Labs/labs9-cleaner-pos/pull/44
 
 #### Backend
 
 - Ticket1:
 
-  - **Trello:** https://trello.com/c/ubNG3hCW
-  - **GitHub:** https://github.com/Lambda-School-Labs/labs9-cleaner-pos/pull/2
+  - **Trello:** https://trello.com/c/GlPrmPSO
+  - **GitHub:** https://github.com/Lambda-School-Labs/labs9-cleaner-pos/pull/67
 
 - Ticket2:
-  - **Trello:** https://trello.com/c/76rJHmSJ
-  - **GitHub:** https://github.com/Lambda-School-Labs/labs9-cleaner-pos/pull/29
+  - **Trello:** https://trello.com/c/GlPrmPSO
+  - **GitHub:** https://github.com/Lambda-School-Labs/labs9-cleaner-pos/pull/57
 
 #### Detailed Analysis of the Backend Setup (Ticket #1)
 

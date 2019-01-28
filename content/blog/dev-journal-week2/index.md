@@ -88,16 +88,3 @@ The _"small"_ price to pay for that is to figure out how to configure it properl
 The easiest solution in my eyes, presents the use of two different configs for development and production.
 In the development version you can make use of the `HotModuleReplacementPlugin` & `webpack/hot/poll` which will take care of the more
 complex operations.
-
-#### Forming our team
-
-Our team came to be pretty naturally as the core around Ronald, William and I started in the same PM group and Kelly & Chris started with us in CS10
-and also were part of our PM team when we worked with WEB 12.
-
-Initially we were approached by a few other students to join them and we quickly arrived at the conclusion that we weren't able to work with them
-because their vision of what the project should be and the tooling that would be used to make it into reality.
-
-I think that the fact that we said no to this project was pretty disappointing for the rest of the team.
-
-What this taught me is that while it can be unfortunate and "harsh" to decline working with someone, it is still important to not force yourself to do something
-just out of the desire to not disappoint others. And that the most important thing about saying no in such a situation is, to be respectful and honest.

@@ -49,4 +49,12 @@ in order to create the stripe connect charges and implement stripe OAuth for cus
 
 #### Detailed Analysis of the Checkout Page
 
-What makes this a challenging component, is the fact that it combines a lot of the state logic and APIs
+What makes this a challenging component, is the fact that it combines a lot of the state logic and APIs.
+It pings multiple endpoints on the back end that had to be adjusted in order to take in the stay ID,
+check if the user is already connected to stripe and gives the user the option to process a payment on the
+guests behalf using their credit card.
+
+It uses the stays endpoint to grab information for the invoice and uses the stripe connect API to create a payment
+token as well as charge the payment source.
+In order for this to work the stripe account of the user has to be connected first, which we solved by implementing
+an OAuth component with stripe.

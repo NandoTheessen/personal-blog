@@ -15,14 +15,12 @@ On Tuesday we realized we need to better keep track of what to do and did a full
 tasks and assigned those.
 This really helped us ramp up productivity throughout the week.
 
-## Time sink #1: The Checkout Page
+## Time sinks:
 
-In the checkout page a lot of our features and APIs come together and start forming core
-functionality of our app.
-It displays an invoice, let's the customer use credit cards of their guests to make payments
-through stripe and let's them manipulate stay data.
-In order for this to work, I had to implement the core state logic of the app, add endpoints
-in order to create the stripe connect charges and implement stripe OAuth for customers to connect their accounts
+Given the nature of this week it is very hard to pin-point the #1 time sink as I was bouncing around a lot of issues, styling components
+helping out other team-members with implementation details.
+If I had to pick something it was likely adding things that improve user experience.
+While they are not the most complicated things (for example a loading indicator, confirmations for payments or meaningful error messages with next steps in the frontend)
 
 #### Whiteboard training (MinHeap):
 
@@ -32,37 +30,41 @@ in order to create the stripe connect charges and implement stripe OAuth for cus
 
 ![Contribution Graph of the cleaner-pos team](./Github-Contributions.jpg)
 
-#### Frontend
+#### Pull Requests
 
 - Ticket 1:
 
-  - **Trello:** https://trello.com/c/RVq0jhwX
-  - **GitHub:** https://github.com/Lambda-School-Labs/labs9-cleaner-pos/pull/78
+  - **Trello:** https://trello.com/c/LltjtIln
+  - **GitHub:** https://github.com/Lambda-School-Labs/labs9-cleaner-pos/pull/125
 
 - Ticket2:
 
-  - **Trello:** https://trello.com/c/rGzIDO3e
-  - **GitHub:** https://github.com/Lambda-School-Labs/labs9-cleaner-pos/pull/81
+  - **Trello:** https://trello.com/c/KYb3skzN
+  - **GitHub:** https://github.com/Lambda-School-Labs/labs9-cleaner-pos/pull/109
 
 - Ticket3:
-  - **Trello:** https://trello.com/c/TbmyH3TK
-  - **GitHub:** https://github.com/Lambda-School-Labs/labs9-cleaner-pos/pull/91
 
-#### Backend
+  - **Trello:** https://trello.com/c/KYb3skzN
+  - **GitHub:** https://github.com/Lambda-School-Labs/labs9-cleaner-pos/pull/119
 
-- Ticket1:
+- Ticket4:
 
-  - **Trello:** https://trello.com/c/Y9m4vbdv
-  - **GitHub:** https://github.com/Lambda-School-Labs/labs9-cleaner-pos/pull/88
+  - **Trello:** https://trello.com/c/KYb3skzN
+  - **GitHub:** https://github.com/Lambda-School-Labs/labs9-cleaner-pos/pull/110
 
-#### Detailed Analysis of the Checkout Page
+- Ticket5:
+  - **Trello:** https://trello.com/c/KYb3skzN
+  - **GitHub:** https://github.com/Lambda-School-Labs/labs9-cleaner-pos/pull/140
 
-What makes this a challenging component, is the fact that it combines a lot of the state logic and APIs.
-It pings multiple endpoints on the back end that had to be adjusted in order to take in the stay ID,
-check if the user is already connected to stripe and gives the user the option to process a payment on the
-guests behalf using their credit card.
+#### Detailed Analysis of the user experience additions
 
-It uses the stays endpoint to grab information for the invoice and uses the stripe connect API to create a payment
-token as well as charge the payment source.
-In order for this to work the stripe account of the user has to be connected first, which we solved by implementing
-an OAuth component with stripe.
+I've learned a lot about UX this week, though I did not necessarily read much about it a lot of it just
+was apparent in the context of walking through our application and thinking what I'd like to see as a
+user and what I'm used to from other applications.
+
+This helped me a lot in finding and fleshing out pain points that we were still having.
+In my effort to improve on what we've already had I tried to maximize my impact and optimize for the
+little time we had left.
+I think the most important change I introduced with the loading indicator that in combination with the previously
+implemented useFetch hook supplies us with a very performant css animation whenever an axios call is running
+and the user has to wait for data to be displayed.

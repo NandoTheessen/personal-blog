@@ -88,3 +88,5 @@ The _"small"_ price to pay for that is to figure out how to configure it properl
 The easiest solution in my eyes, presents the use of two different configs for development and production.
 In the development version you can make use of the `HotModuleReplacementPlugin` & `webpack/hot/poll` which will take care of the more
 complex operations.
+
+#### My Experience working with a team

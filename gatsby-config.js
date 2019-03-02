@@ -5,8 +5,8 @@ module.exports = {
     description: `Personal blog including articles about software engineering.`,
     siteUrl: `https://blog.nando.codes`,
     social: {
-      twitter: `NandoCodes`,
-      linkedin: `https://www.linkedin.com/in/nandotheessen/?locale=en_US`,
+      twitter: `nandotheessen`,
+      linkedin: `https://www.linkedin.com/in/nandotheessen`,
     },
   },
   plugins: [

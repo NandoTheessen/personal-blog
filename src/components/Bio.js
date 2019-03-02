@@ -33,7 +33,7 @@ function Bio() {
             <p>
               Written by <strong>{author}</strong> a software engineer & esports
               fan based in Germany currently with{' '}
-              <a href="https://lambdaschool.com/">LambdaSchool</a>.{` `}
+              <a href="https://www.buzzbird.de">BuzzBird</a>.{` `}
               For more follow me on{' '}
               <a href={`https://twitter.com/${social.twitter}`}>Twitter</a> or
               find me on <a href={social.linkedin}>LinkedIn</a> and add me to

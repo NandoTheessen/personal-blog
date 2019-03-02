@@ -1,6 +1,7 @@
 ---
 title: Why the “key” prop in React is important
 date: '2019-01-10T22:12:03.284Z'
+description: Article about the key property in React
 ---
 
 ### How you can help React perform even better with the “key” property!

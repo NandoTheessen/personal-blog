@@ -1,6 +1,7 @@
 ---
 title: Week 4 in Labs9
 date: '2019-02-01T19:17:03.284Z'
+description: Article about week 4 of Lambda Labs
 ---
 
 # Crunch Timeeee!

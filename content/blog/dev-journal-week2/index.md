@@ -1,6 +1,7 @@
 ---
 title: Week 2 in Labs9
 date: '2019-01-18T19:17:03.284Z'
+description: Article about week 2 of Lambda Labs
 ---
 
 This second week felt a lot longer and harder than week 1.

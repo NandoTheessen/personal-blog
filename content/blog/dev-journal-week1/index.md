@@ -1,6 +1,7 @@
 ---
 title: Week 1 in Labs9
 date: '2019-01-11T19:17:03.284Z'
+description: Article about week 1 of Lambda Labs
 ---
 
 As this was our first week a lot of it was settling in. Setting up the repository,

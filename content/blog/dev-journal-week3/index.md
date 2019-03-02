@@ -1,6 +1,7 @@
 ---
 title: Week 3 in Labs9
 date: '2019-01-28T19:17:03.284Z'
+description: Article about week 2 of Lambda Labs
 ---
 
 Our third week of real world production experience was a lot harder than anticipated.

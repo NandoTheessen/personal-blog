@@ -14,7 +14,7 @@ It's not only popular but devs working with it really like it! You can see this 
 
 Naturally, Go always was on my *AwesomeTechThatIReallyWantToLearn*-list, but between my last big project and my previous position with [Lambda School](https://bit.ly/2C0iMRI) I never really had the time to dive in. <br>
 
-# My new position as Back-end Golang Developer
+# The new position
 
 During my search for a new position in February I was fortunate enough to be offered a position with a German startup working with Go (and AWS Serverless, GraphQL & DynamoDB).<br>
 Since learning new things is like my favorite thing, I pounced at the opportunity and have officially joined them with the beginning of March.<br>

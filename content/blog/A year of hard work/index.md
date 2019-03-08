@@ -39,4 +39,4 @@ Sitting down every night from 5pm - 2am (the downside to join a school that is n
 
 ## How About You?
 
-If you are looking for a way in and are living in the EU or the US I can whole-heartedly recommmend [Lambda School](https://bit.ly/2C0iMRI). There is no upfront cost - they get paid once you've landed your first job and exceed the salary cap - and they have an amazing team of instructors and project managers that help every student become the best engineer they can be.
+If you are looking for a way in and are living in the EU or the US I can wholeheartedly  recommend [Lambda School](https://bit.ly/2C0iMRI). There is no upfront cost - they get paid once you've landed your first job and exceed the salary cap - and they have an amazing team of instructors and project managers that help every student become the best engineer they can be.

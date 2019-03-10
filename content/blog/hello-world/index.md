@@ -6,7 +6,7 @@ description: Article about the key property in React
 
 ### How you can help React perform even better with the “key” property!
 
-When working with peers and students alike, I’ve realised that one of the lesser understood concepts of
+When working with peers and students alike, I’ve realized that one of the lesser understood concepts of
 React is what the “key” property in iteratively created elements is doing for you.
 
 Most of the time, it will be included eventually because no one likes warnings in the console, but this
@@ -63,7 +63,7 @@ However, with the help of the “key”-property React is able to identify uncha
 </ul>
 ```
 
-There is also another assumption that helps speed up React, which is that different elements will automatically cause different subtrees, but that is for a different article!
+There is also another assumption that helps speed up React, which is that different elements will automatically cause different sub trees, but that is for a different article!
 
 ### Resources:
 

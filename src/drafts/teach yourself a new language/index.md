@@ -1,5 +1,5 @@
 ---
-title: 3 Things You Should Do To Pick Up A New Language Quickly
+title: 2 Things You Should Do To Pick Up A New Language Quickly
 date: '2019-03-12T08:12:03.284Z'
 description: What helped me to start contributing in Go immediately
 ---
@@ -8,7 +8,7 @@ I recently started a new position which required me to re-invent myself.
 Most of my professional experience is working with JavaScript on both sides of the stack (mainly React & Express) and it's ecosystem.
 My new job however has me developing micro services in Golang, deploy using AWS Lambda and tie everything together with GraphQL. Neither of which I have worked with.
 
-In this article I'd like to take you along my journey in becoming able to contribute as fast as possible and show you the 3 things - in no particular order - that I did to make that happen.
+In this article I'd like to take you along my journey in becoming able to contribute as fast as possible and show you the 2 things - in no particular order - that I did to make that happen.
 
 ## 1: Find Resources That Are Useful
 
@@ -39,16 +39,28 @@ A great resource for this would be [Effective Go](https://golang.org/doc/effecti
 ## 2: There Is No Shortcut.
 
 One of the biggest misconceptions about learning a new concept, language or framework is how you can do so effectively.
-I've learned with and worked next to a lot of great people that had an account with any of the big learning sites or had a big library of courses on technologies that wanted to learn. 
-I myself had a similar library.
+I've learned with and worked next to a lot of great people that had an account with any of the big learning sites or had a big library of courses on technologies that wanted to learn and I myself had a similar library.
 
-Sadly - in most cases - just following a tutorial or a course does **not** make you a lot better in something new. 
+Sadly - in most cases - just following a tutorial or a course does **not** make you  better in something new. 
 Often times it absolves you from thinking yourself and thus hampers your progress rather than speeding it up like you had hoped.
 
 This is not to say, you shouldn't look up things that might help with something you are building by the way. What I hope this tells your is that you should shoot for your own solutions and projects.
+Because nothing will teach you something new like struggling through working with it or creating it yourself.
 
 
 #### What You Should Do Instead: Build Things!
 
 From my experience of working with a lot of beginners and learning myself, what really helps people get good with languages and development in general is having their fingers on keyboards and working on code.
  
+Although this is not the "easiest" way and probably takes more time than just listening / watching something on the topic, it will make you proficient a lot faster.
+
+What really helps me with this step is not going overboard with the projects I'm building.
+
+#### Start Simple!
+
+For Golang, my first project was a REST API! It's a fantastic way to learn how a language handles http requests, what tools are useful for this and it's simple enough to not take up multiple days of your time.
+
+Also, APIs are used everywhere and are likely a core part of your (future) job.
+In general, I think it is a fantastic idea to use a simple version of something you are familiar with.
+
+If you are super comfortable writing an API, algorithm or toy program you can focus on the key differences and learn from them!

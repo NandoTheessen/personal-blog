@@ -5,10 +5,10 @@ description: What helped me to start contributing in Go immediately
 ---
 
 I recently started a new position which required me to re-invent myself.
-Most of my professional experience is working with JavaScript on both sides of the stack (mainly React & Express) and it's ecosystem.
+Most of my professional experience is working with JavaScript on both sides of the stack (mainly React & Express) and it's ecosystem.<br>
 My new job however has me developing micro services in Golang, deploy using AWS Lambda and tie everything together with GraphQL. Neither of which I have worked with.
 
-In this article I'd like to take you along my journey in becoming able to contribute as fast as possible and show you the 2 things - in no particular order - that I did to make that happen.
+In this article I'd like to share two things that have really helped me in becoming able to contribute as fast as possible.
 
 ## 1: Find Resources That Are Useful
 

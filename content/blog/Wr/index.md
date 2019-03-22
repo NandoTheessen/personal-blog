@@ -1,5 +1,6 @@
 ---
 title: Logging Request Bodies For Golang REST APIs
+date: '2019-03-12T08:12:03.284Z'
 published: true
 description: Logging HTTP request bodies
 tags: Golang, HTTP, REST API, Serverless

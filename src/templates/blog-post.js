@@ -41,7 +41,9 @@ class BlogPostTemplate extends React.Component {
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
 
-        <h3>Subscribe to my newsletter!</h3>
+        <h4>Subscribe to my newsletter!</h4>
+        If you are looking for more articles like this, feel free to subscribe to my
+        bi-weekly newsletter!
         <form onSubmit={this._handleSubmit} style={{margin: 'auto'}}>
            
            <div style={{display: 'flex', justifyContent: 'center', marginBottom: rhythm(1)}}>

@@ -130,16 +130,16 @@ Since a lot is going on here, let's unpack it!<br>
 After the initial import statements, we are defining the struct that will hold all our handler methods.<br>
 
 I'm using this structure because it makes it easy to organize the methods themselves, as well as it gives me a central point to grant access to shared resources - like DB access or the logger you can see in this example!<br>
-The NewRouter function uses the Chi package to create an instance of both the handerShared struct and a router.<br>
+The NewRouter function uses the Chi package to create an instance of both the handlerShared struct and a router.<br>
 It's also responsible for adding our desired routes and combining them with their respective handlers.
 
 #### Handlers
-Compared to lagnuages like JavaScript and Python, writing even a simple response is non-trivial in Go, as it has no understanding of JSON.<br>
+Compared to languages like JavaScript and Python, writing even a simple response is non-trivial in Go, as it has no understanding of JSON.<br>
 
 We'll use Marshalling to encode our data into a byte format which we can then use in our HTTP responses.<br>You can read more on the topic in this [blog article](http://localhost:8000/Writing%20REST%20APIs%20in%20Golang/).<br>
 
 Once we venture further into this project, we'll introduce helpers that make it more convenient for us to send responses and also errors.
-####What's Missing
+#### What's Missing
 To get to a fully functional REST API there are ways to go.
 We need actual resources the user can interact with and a way for the user to interact with them!
 Also, we should simplify the way we are handling HTTP requests and add a helper function for sending our responses.
